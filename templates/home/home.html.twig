@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    {% for notice in app.flashes('success') %}
+      {{ notice }}
+    {% endfor %}
+    {% for notice in app.flashes('error') %}
+      {{ notice }}
+    {% endfor %}
+
+    <div class="max-w-md w-full space-y-8">
+      {{ form(form) }}
+    </div>
+  </div>
+{% endblock %}

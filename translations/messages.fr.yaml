@@ -1,0 +1,5 @@
+link:
+  generate:
+    sucess: "Voici votre lien : @link"
+  fetch:
+    not-found: "Le lien recherché n'existe pas"
