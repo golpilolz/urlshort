@@ -1,4 +1,6 @@
 {
+    "name": "golpilolz/urlshort",
+    "description": "An url short link generator",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
